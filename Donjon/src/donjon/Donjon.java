@@ -1,19 +1,21 @@
- Error reading included file Templates/Classes/Templates/Licenses/license-default.txt
 package donjon;
 
+import java.util.Scanner;
+
 /**
- *
- * @author Wissam
+ * Classe de démarrage du jeu
  */
-
-
 public class Donjon {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("Bonjour et bienvenue dans \"Cortex must die !\"");
+        System.out.println("Choisissez un nom :");
+        Scanner scan = new Scanner(System.in);
+        String nom = scan.next();
+        System.out.println("Donc tu t'appelles " + nom);
     }
-    
+
 }
