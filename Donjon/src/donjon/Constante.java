@@ -9,9 +9,9 @@ public class Constante {
      * Le joueur
      */
     public static Joueur joueur = new Joueur();
-    
+
     /**
-     * 
+     * La carte
      */
-    public static Salle salleActuel;
+    public static Carte carte;
 }

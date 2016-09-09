@@ -7,9 +7,9 @@ package donjon;
 public class Salle {
 
     /**
-     * Le type de la salle : -1 : Entrée 0 : Basique 1 : Sortie
+     * Le type de la salle : 2 : Entrée, 1 : Basique, 3 : Sortie
      */
-    private int type = 0;
+    private int type = 1;
 
     /**
      * Si un couloir vers le haut existe
@@ -35,7 +35,7 @@ public class Salle {
     }
 
     /**
-     * Type, -1 Entrée, 1 Sortie, si non laisser par défaut 0
+     * Type, 2 Entrée, 3 Sortie, si non laisser par défaut 1
      *
      * @param type
      */
