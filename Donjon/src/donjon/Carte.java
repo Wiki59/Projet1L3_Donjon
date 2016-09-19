@@ -14,6 +14,11 @@ public class Carte {
      * La source de la map
      */
     private String dmSource = "";
+    
+    /**
+     * La map enregistré dans un tableau à 2 dimensions
+     */
+    private int[][] mapTab;
 
     public Carte(String source) {
         this.dmSource = source;
