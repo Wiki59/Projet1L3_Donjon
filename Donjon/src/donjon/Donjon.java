@@ -23,9 +23,11 @@ public class Donjon {
         System.out.println("Vous vous réveillez silencieusement de votre tombe, insomniaque, vous ne savez pas où vous étes, mais une odeur plane dans l'air.");
         System.out.println("Vous regardez la tombe et vous voyez votre nom écrit sur une dalle en pierre posée à vos pieds, l'odeur devient plus en plus goûtante.");
         System.out.println("Devant vous se trouve une porte et des hiéroglyphique sont dessinés sur les murs, votre ventre grogne et vous savez que vous devais");
-        System.out.println("suivre cette odeur, appaitissante, qui vous gorge votre esprit.");
+        System.out.println("suivre cette odeur qui vous gorge votre esprit.");
         System.out.println("");
         carte = new Carte("src/donjon/map.dm");
+        
+        System.out.println(carte.toString());
         
         tour();
     }

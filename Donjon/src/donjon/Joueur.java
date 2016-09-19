@@ -21,5 +21,11 @@ public class Joueur extends Personnage {
     public void setSalle(Salle salle) {
         this.salle = salle;
     }
+    
+    public void setStarterRoomByMap(Carte carte) {
+        for (int i = 0; i < 1; i++) {
+            
+        }
+    }
 
 }
